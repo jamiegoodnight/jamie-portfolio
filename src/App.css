@@ -163,6 +163,12 @@ a:hover {
   overflow: hidden;
 }
 
+@media (max-width: 1200px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
 .no-overflow {
   overflow: hidden;
 }
@@ -171,6 +177,12 @@ a:hover {
   width: 40%;
   height: 600px;
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .one {
+    width: 100%;
+  }
 }
 
 .item-one {
@@ -186,6 +198,12 @@ a:hover {
 .two {
   width: 60%;
   height: 600px;
+}
+
+@media (max-width: 1200px) {
+  .two {
+    width: 100%;
+  }
 }
 
 .item-two {
@@ -204,6 +222,12 @@ a:hover {
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  .four {
+    width: 100%;
+  }
+}
+
 .item-four {
   width: 100%;
   height: 100%;
@@ -218,6 +242,12 @@ a:hover {
   width: 33%;
   height: 600px;
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .five {
+    width: 100%;
+  }
 }
 
 .item-five {
@@ -236,6 +266,12 @@ a:hover {
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  .six {
+    width: 100%;
+  }
+}
+
 .item-six {
   width: 100%;
   height: 100%;
@@ -250,6 +286,12 @@ a:hover {
   width: 100%;
   height: 600px;
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .eight {
+    width: 100%;
+  }
 }
 
 .item-eight {
@@ -267,9 +309,21 @@ a:hover {
   height: 600px;
 }
 
+@media (max-width: 1200px) {
+  .vid-wrapper {
+    width: 100%;
+  }
+}
+
 .vid-wrapper-two {
   width: 60%;
   height: 600px;
+}
+
+@media (max-width: 1200px) {
+  .vid-wrapper-two {
+    width: 100%;
+  }
 }
 
 .vid {
