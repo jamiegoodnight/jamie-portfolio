@@ -127,24 +127,182 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  width: 51px;
+}
+
+a:hover {
+  color: black;
+}
+
+.nav-wrapper {
+  padding-top: 6%;
+  padding-left: 6%;
+  display: flex;
+  flex-direction: column;
+}
+
 .image-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
+
 .row {
+  display: flex;
   width: 100%;
-  border: 5px solid black;
-}
-.item-one {
-  width: 30%;
-  height: 300px;
-}
-.item-two {
-  width: 70%;
+  overflow: hidden;
 }
 
-img {
+.no-overflow {
+  overflow: hidden;
+}
+
+.one {
+  width: 40%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-one {
   width: 100%;
+  height: 100%;
+  background-image: url('./assets/keyconsfront.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: transform 0.2s;
+}
+
+.two {
+  width: 60%;
+  height: 600px;
+}
+
+.item-two {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/aboutme.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+  transition: transform 0.2s;
+}
+
+.four {
+  width: 33%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-four {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/usemytech.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+  transition: transform 0.2s;
+}
+
+.five {
+  width: 33%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-five {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/darkmode.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+  transition: transform 0.2s;
+}
+
+.six {
+  width: 50%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-six {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/guidr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: transform 0.2s;
+}
+
+.eight {
+  width: 100%;
+  height: 600px;
+  cursor: pointer;
+}
+
+.item-eight {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/keyconsback.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  transition: transform 0.2s;
+}
+
+.vid-wrapper {
+  width: 50%;
+  height: 600px;
+}
+
+.vid-wrapper-two {
+  width: 60%;
+  height: 600px;
+}
+
+.vid {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: black;
+}
+
+.fab {
+  margin-top: 3px;
+  font-size: 60px;
+  color: white;
+  transition: 0.5s;
+}
+
+.fas {
+  font-size: 54px;
+  color: white;
+  transition: 0.5s;
+}
+
+.fa-github-square:hover {
+  color: #24292e;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-envelope:hover {
+  color: #29aa1a;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }
