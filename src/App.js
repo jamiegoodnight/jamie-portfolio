@@ -1,41 +1,103 @@
 import React from 'react';
-import logo from './logo.svg';
+import ReactPlayer from 'react-player';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className='App'>
-      <div></div>
-      <div className='image-wrapper'>
-        <div className='row'>
-          <img
-            className='item-one'
-            src={`https://jodie.lekoarts.de/static/af6ce265576ce67a77b7ae1ec6e94476/8fba5/projects-color-001.webp`}
-          />
-          <img
-            className='item-two'
-            src={`https://jodie.lekoarts.de/static/d76433afdc3d6ca1afacc71eaf05c9e0/8fba5/projects-breakfast-001.webp`}
-          />
-        </div>
-        <div className='row'>
-          <img
-            src={`https://jodie.lekoarts.de/static/5f448974c79302fba9a2543771cd8070/8fba5/projects-neon-001.webp`}
-          />
-          <img
-            src={`https://jodie.lekoarts.de/static/235a268caca73ffe1c00085758f5b9d2/8fba5/projects-bw-001.webp`}
-          />
-          <img
-            src={`https://jodie.lekoarts.de/static/647101c86116531fad84d754760e7b58/8fba5/projects-color-002.webp`}
-          />
-        </div>
-        <div className='row'>
-          <img
-            src={`https://jodie.lekoarts.de/static/7b0f3f773d4ad7a8deb755de22975dc8/8fba5/projects-bw-004.webp`}
-          />
+class App extends React.Component {
+  render() {
+    return (
+      <div className='App'>
+        <div className='image-wrapper'>
+          <div className='row'>
+            <div className={`${'two'} ${'no-overflow'}`}>
+              <div className={`${'item-two'}`}>
+                <div className='nav-wrapper'>
+                  <a
+                    href='https://github.com/jamiegoodnight'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i class='fab fa-github-square'></i>
+                  </a>
+                  <a
+                    href='https://www.linkedin.com/in/jamiegoodnight/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i class='fab fa-linkedin'></i>
+                  </a>
+                  <a
+                    href='https://jamiegoodnight.typeform.com/to/IPmtRL'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i class='fas fa-envelope'></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className={`${'one'} ${'no-overflow'}`}>
+              <a
+                href='https://github.com/Lambda-School-Labs/key-conservation-mobile'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <div className={`${'item-one'} ${'zoom'}`}></div>
+              </a>
+            </div>
+          </div>
+          <div className='row'>
+            <div className={`${'six'} ${'no-overflow'}`}>
+              <a
+                href='https://github.com/jamiegoodnight/guidr'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <div className={`${'item-six'} ${'zoom'}`}></div>
+              </a>
+            </div>
+            <div className={`${'four'} ${'no-overflow'}`}>
+              <a
+                href='https://github.com/jamiegoodnight/usemytech-be'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <div className={`${'item-four'} ${'zoom'}`}></div>
+              </a>
+            </div>
+            <div className={`${'five'} ${'no-overflow'}`}>
+              <a
+                href='https://github.com/jamiegoodnight/dark-mode'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <div className={`${'item-five'} ${'zoom'}`}></div>
+              </a>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='vid-wrapper'>
+              <ReactPlayer url='https://youtu.be/TNtvKCUwNT4' className='vid' />
+            </div>
+            <div className='vid-wrapper-two'>
+              <ReactPlayer url='https://youtu.be/oJSmAoSdx8w' className='vid' />
+            </div>
+          </div>
+          <div className='row'>
+            <div className={`${'eight'} ${'no-overflow'}`}>
+              <a
+                href='https://github.com/Lambda-School-Labs/key-conservation-be'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <div className={`${'item-eight'} ${'zoom'}`}></div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
