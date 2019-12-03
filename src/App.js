@@ -1,10 +1,29 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import Loader from 'react-loader-spinner';
 
 import './App.css';
 
 class App extends React.Component {
+  // state = {
+  //   load: true
+  // };
+  // componentDidMount = () => {
+  //   setTimeout(() => {
+  //     this.setState({
+  //       ...this.state,
+  //       load: false
+  //     });
+  //   }, 1000);
+  // };
   render() {
+    // if (this.state.load === true) {
+    //   return (
+    //     <div>
+    //       <Loader type='Grid' color='white' height={400} width={400} />
+    //     </div>
+    //   );
+    // }
     return (
       <div className='App'>
         <div className='image-wrapper'>
@@ -76,11 +95,31 @@ class App extends React.Component {
             </div>
           </div>
           <div className='row'>
-            <div className='vid-wrapper'>
-              <ReactPlayer url='https://youtu.be/TNtvKCUwNT4' className='vid' />
+            <div className='vid-wrapper no-overflow'>
+              <a
+                href='https://youtu.be/TNtvKCUwNT4'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <ReactPlayer
+                  url='https://youtu.be/TNtvKCUwNT4'
+                  className='vid'
+                />
+                <div className={'mobile-key zoom'}></div>
+              </a>
             </div>
-            <div className='vid-wrapper-two'>
-              <ReactPlayer url='https://youtu.be/oJSmAoSdx8w' className='vid' />
+            <div className='vid-wrapper-two no-overflow'>
+              <a
+                href='https://youtu.be/oJSmAoSdx8w'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <ReactPlayer
+                  url='https://youtu.be/oJSmAoSdx8w'
+                  className='vid'
+                />
+                <div className={'mobile-game zoom'}></div>
+              </a>
             </div>
           </div>
           <div className='row'>
