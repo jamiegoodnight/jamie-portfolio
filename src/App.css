@@ -397,6 +397,20 @@ a:hover {
   transition: 0.5s;
 }
 
+.fa-chevron-circle-right {
+  font-size: 80px;
+  margin-top: 90%;
+  margin-left: 50%;
+}
+
+.chev-black {
+  color: black;
+}
+
+.chev-white {
+  color: white;
+}
+
 .fa-github-square:hover {
   color: #24292e;
 }
@@ -409,6 +423,16 @@ a:hover {
   color: #29aa1a;
 }
 
-.zoom:hover {
-  transform: scale(1.1);
+@media (max-width: 1000px) {
+  .fa-github-square:hover,
+  .fa-linkedin:hover,
+  .fa-envelope:hover {
+    color: white;
+  }
+}
+
+@media (min-width: 1000px) {
+  .zoom:hover {
+    transform: scale(1.1);
+  }
 }

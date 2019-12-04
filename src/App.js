@@ -61,7 +61,10 @@ class App extends React.Component {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <div className={`${'item-one'} ${'zoom'}`}></div>
+                <div className={`${'item-one'} ${'zoom'}`}>
+                  {' '}
+                  {/* <i class='fas fa-chevron-circle-right chev-black'></i> */}
+                </div>
               </a>
             </div>
           </div>
@@ -72,7 +75,9 @@ class App extends React.Component {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <div className={`${'item-six'} ${'zoom'}`}></div>
+                <div className={`${'item-six'} ${'zoom'}`}>
+                  {/* <i class='fas fa-chevron-circle-right chev-white'></i> */}
+                </div>
               </a>
             </div>
             <div className={`${'four'} ${'no-overflow'}`}>
