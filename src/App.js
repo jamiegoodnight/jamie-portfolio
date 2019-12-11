@@ -36,21 +36,21 @@ class App extends React.Component {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <i class='fab fa-github-square'></i>
+                    <i class='fab fa-github-square fade'></i>
                   </a>
                   <a
                     href='https://www.linkedin.com/in/jamiegoodnight/'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <i class='fab fa-linkedin'></i>
+                    <i class='fab fa-linkedin fade2'></i>
                   </a>
                   <a
                     href='https://jamiegoodnight.typeform.com/to/IPmtRL'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <i class='fas fa-envelope'></i>
+                    <i class='fas fa-envelope fade3'></i>
                   </a>
                 </div>
               </div>
