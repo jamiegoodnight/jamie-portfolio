@@ -389,12 +389,37 @@ a:hover {
   font-size: 60px;
   color: white;
   transition: 0.5s;
+  animation: fade-in 2.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .fas {
   font-size: 54px;
   color: white;
   transition: 0.5s;
+}
+
+.fade {
+  animation: fade-in 3.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.fade2 {
+  animation: fade-in 4.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.fade3 {
+  animation: fade-in 5.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fa-chevron-circle-right {
