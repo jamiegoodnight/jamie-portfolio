@@ -403,11 +403,11 @@ a:hover {
 }
 
 .fade2 {
-  animation: fade-in 4.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 5.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .fade3 {
-  animation: fade-in 5.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 6.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @keyframes fade-in {
