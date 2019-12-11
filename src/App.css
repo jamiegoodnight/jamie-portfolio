@@ -398,8 +398,12 @@ a:hover {
   transition: 0.5s;
 }
 
-.fade {
+.fadesite {
   animation: fade-in 3.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.fade {
+  animation: fade-in 4.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .fade2 {

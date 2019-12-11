@@ -26,7 +26,7 @@ class App extends React.Component {
     // }
     return (
       <div className='App'>
-        <div className='image-wrapper fade'>
+        <div className='image-wrapper fadesite'>
           <div className='row'>
             <div className={`${'two'} ${'no-overflow'}`}>
               <div className={`${'item-two'}`}>
