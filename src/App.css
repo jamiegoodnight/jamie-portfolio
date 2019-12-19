@@ -136,6 +136,46 @@ body {
   background-color: black;
 }
 
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.key-p {
+  font-size: 5rem;
+  padding-top: 4%;
+  padding-left: 50%;
+}
+
+.guidr-p {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 10rem;
+  padding-top: 4%;
+  padding-left: 20%;
+}
+
+.tech-p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6rem;
+  padding-top: 70%;
+  padding-left: 6%;
+}
+
+.dark-p {
+  font-family: 'Staatliches', cursive;
+  font-size: 6rem;
+  padding-top: 80%;
+  padding-left: 50%;
+}
+
+.keyback-p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  padding-top: 5%;
+  padding-left: 20%;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -145,6 +185,26 @@ a {
 
 a:hover {
   color: black;
+}
+
+.key-a:hover {
+  color: #ff54f8;
+}
+
+.guidr-a:hover {
+  color: #1f9d55;
+}
+
+.tech-a:hover {
+  color: #ebcfcf;
+}
+
+.dark-a:hover {
+  color: #fbff93;
+}
+
+.keyback-a:hover {
+  color: #ff54f8;
 }
 
 .nav-wrapper {

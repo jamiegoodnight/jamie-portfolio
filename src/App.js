@@ -60,9 +60,11 @@ class App extends React.Component {
                 href='https://github.com/Lambda-School-Labs/key-conservation-mobile'
                 target='_blank'
                 rel='noopener noreferrer'
+                className='key-a'
               >
                 <div className={`${'item-one'} ${'zoom'}`}>
                   {' '}
+                  <p className='key-p'>KEY/FRONT-END</p>
                   {/* <i class='fas fa-chevron-circle-right chev-black'></i> */}
                 </div>
               </a>
@@ -74,8 +76,10 @@ class App extends React.Component {
                 href='https://github.com/jamiegoodnight/guidr'
                 target='_blank'
                 rel='noopener noreferrer'
+                className='guidr-a'
               >
                 <div className={`${'item-six'} ${'zoom'}`}>
+                  <p className='guidr-p'>GUIDR</p>
                   {/* <i class='fas fa-chevron-circle-right chev-white'></i> */}
                 </div>
               </a>
@@ -85,8 +89,15 @@ class App extends React.Component {
                 href='https://github.com/jamiegoodnight/usemytech-be'
                 target='_blank'
                 rel='noopener noreferrer'
+                className='tech-a'
               >
-                <div className={`${'item-four'} ${'zoom'}`}></div>
+                <div className={`${'item-four'} ${'zoom'}`}>
+                  <p className='tech-p'>
+                    USE
+                    <br /> MY
+                    <br /> TECH
+                  </p>
+                </div>
               </a>
             </div>
             <div className={`${'five'} ${'no-overflow'}`}>
@@ -94,8 +105,11 @@ class App extends React.Component {
                 href='https://github.com/jamiegoodnight/dark-mode'
                 target='_blank'
                 rel='noopener noreferrer'
+                className='dark-a'
               >
-                <div className={`${'item-five'} ${'zoom'}`}></div>
+                <div className={`${'item-five'} ${'zoom'}`}>
+                  <p className='dark-p'>DARK MODE</p>
+                </div>
               </a>
             </div>
           </div>
@@ -133,8 +147,11 @@ class App extends React.Component {
                 href='https://github.com/Lambda-School-Labs/key-conservation-be'
                 target='_blank'
                 rel='noopener noreferrer'
+                className='keyback-a'
               >
-                <div className={`${'item-eight'} ${'zoom'}`}></div>
+                <div className={`${'item-eight'} ${'zoom'}`}>
+                  <p className='keyback-p'>KEY/BACK-END</p>
+                </div>
               </a>
             </div>
           </div>
