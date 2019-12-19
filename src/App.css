@@ -147,6 +147,12 @@ p {
   padding-left: 50%;
 }
 
+@media (max-width: 1200px) {
+  .key-p {
+    padding-left: 30%;
+  }
+}
+
 .guidr-p {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 10rem;
