@@ -207,6 +207,23 @@ a:hover {
   color: #ff54f8;
 }
 
+.key-logo {
+  margin-top: 100%;
+  margin-left: -15%;
+  width: 70px;
+  height: 70px;
+}
+
+.key-logo:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .key-logo {
+    margin-top: 500%;
+  }
+}
+
 .nav-wrapper {
   padding-top: 6%;
   padding-left: 6%;
@@ -472,6 +489,10 @@ a:hover {
 
 .fade3 {
   animation: fade-in 6.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.fade4 {
+  animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @keyframes fade-in {

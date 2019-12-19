@@ -52,6 +52,12 @@ class App extends React.Component {
                   >
                     <i class='fas fa-envelope fade3'></i>
                   </a>
+                  {/* <a>
+                    <img
+                      className='key-logo'
+                      src='https://raw.githubusercontent.com/Lambda-School-Labs/key-conservation-mobile/master/assets/images/keyFullWhite.png'
+                    />
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -64,7 +70,7 @@ class App extends React.Component {
               >
                 <div className={`${'item-one'} ${'zoom'}`}>
                   {' '}
-                  <p className='key-p'>KEY/FRONT-END</p>
+                  <p className='key-p fade4'>KEY/FRONT-END</p>
                   {/* <i class='fas fa-chevron-circle-right chev-black'></i> */}
                 </div>
               </a>
@@ -79,7 +85,7 @@ class App extends React.Component {
                 className='guidr-a'
               >
                 <div className={`${'item-six'} ${'zoom'}`}>
-                  <p className='guidr-p'>GUIDR</p>
+                  <p className='guidr-p fade4'>GUIDR</p>
                   {/* <i class='fas fa-chevron-circle-right chev-white'></i> */}
                 </div>
               </a>
@@ -92,7 +98,7 @@ class App extends React.Component {
                 className='tech-a'
               >
                 <div className={`${'item-four'} ${'zoom'}`}>
-                  <p className='tech-p'>
+                  <p className='tech-p fade4'>
                     USE
                     <br /> MY
                     <br /> TECH
@@ -108,7 +114,7 @@ class App extends React.Component {
                 className='dark-a'
               >
                 <div className={`${'item-five'} ${'zoom'}`}>
-                  <p className='dark-p'>DARK MODE</p>
+                  <p className='dark-p fade4'>DARK MODE</p>
                 </div>
               </a>
             </div>
@@ -150,7 +156,7 @@ class App extends React.Component {
                 className='keyback-a'
               >
                 <div className={`${'item-eight'} ${'zoom'}`}>
-                  <p className='keyback-p'>KEY/BACK-END</p>
+                  <p className='keyback-p fade4'>KEY/BACK-END</p>
                 </div>
               </a>
             </div>
