@@ -192,7 +192,7 @@ a:hover {
 .item-one {
   width: 100%;
   height: 100%;
-  background-image: url('./assets/keyconsfront.jpg');
+  background-image: url('https://i.imgur.com/0INDlRm.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -213,7 +213,7 @@ a:hover {
 .item-two {
   width: 100%;
   height: 100%;
-  background-image: url('./assets/aboutme.jpg');
+  background-image: url('https://i.imgur.com/FQvZ317.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 10% 50%;
@@ -241,7 +241,7 @@ a:hover {
 .item-four {
   width: 100%;
   height: 100%;
-  background-image: url('./assets/usemytech.jpg');
+  background-image: url('https://i.imgur.com/4J0L113.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -263,7 +263,7 @@ a:hover {
 .item-five {
   width: 100%;
   height: 100%;
-  background-image: url('./assets/darkmode.jpg');
+  background-image: url('https://i.imgur.com/j5rImCr.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 10% 50%;
@@ -285,7 +285,7 @@ a:hover {
 .item-six {
   width: 100%;
   height: 100%;
-  background-image: url('./assets/guidr.jpg');
+  background-image: url('https://i.imgur.com/jFVlJoD.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -307,7 +307,7 @@ a:hover {
 .item-eight {
   width: 100%;
   height: 100%;
-  background-image: url('./assets/keyconsback.jpg');
+  background-image: url('https://i.imgur.com/0D010zX.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 40%;
@@ -359,7 +359,7 @@ a:hover {
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url('./assets/keyconvid.png');
+    background-image: url('https://i.imgur.com/DiFHNjd.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -376,7 +376,7 @@ a:hover {
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url('./assets/pythongamevid.png');
+    background-image: url('https://i.imgur.com/mLruVp7.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
