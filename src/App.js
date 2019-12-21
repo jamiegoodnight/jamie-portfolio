@@ -53,7 +53,7 @@ class App extends React.Component {
                     <i class='fas fa-envelope fade3'></i>
                   </a>
                   <a
-                    href='https://i.imgur.com/ddCStJ2.png'
+                    href='https://drive.google.com/file/d/1Ab3_XG6nr9IZ221GiMGcj2ND_uwqVDwD/view'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
