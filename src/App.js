@@ -52,13 +52,13 @@ class App extends React.Component {
                   >
                     <i class='fas fa-envelope fade3'></i>
                   </a>
-                  <a
+                  {/* <a
                     href='https://drive.google.com/file/d/1dMYPxl2fEkX9l-bc6Dm_yNKFnl-_7cmE/view?usp=sharing'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
                     <i class='fas fa-file-pdf fade4'></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
