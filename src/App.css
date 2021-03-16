@@ -163,15 +163,27 @@ p {
 .tech-p {
   font-family: 'Roboto', sans-serif;
   font-size: 6rem;
-  padding-top: 70%;
+  padding-top: 65%;
   padding-left: 6%;
+}
+
+@media (max-width: 1200px) {
+  .tech-p {
+    padding-top: 30%;
+  }
 }
 
 .dark-p {
   font-family: 'Staatliches', cursive;
   font-size: 6rem;
-  padding-top: 80%;
-  padding-left: 50%;
+  padding-top: 60%;
+  padding-left: 13%;
+}
+
+@media (max-width: 1200px) {
+  .dark-p {
+    padding-top: 40%;
+  }
 }
 
 .keyback-p {
